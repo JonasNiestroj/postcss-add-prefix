@@ -1,0 +1,16 @@
+{
+	"name": "postcss-prefix-selector",
+	"version": "1.0.0",
+	"description": "Postcss plugin to add a selector as a prefix to all classes",
+	"main": "index.js",
+	"keywords": [
+		"postcss",
+		"prefix",
+		"postcss-plugin"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jonas Niestroj",
+	"license": "MIT"
+}
