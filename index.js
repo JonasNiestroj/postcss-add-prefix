@@ -16,7 +16,7 @@ const walkRules = (postcss) => {
   });
 };
 
-module.exports = postcss.plugin("postcss-prefix-selector", (options) => {
+module.exports = postcss.plugin("postcss-add-prefix", (options) => {
   options = options || { selector: "#prefix" };
   return (postcss) => walkRules(postcss);
 });
