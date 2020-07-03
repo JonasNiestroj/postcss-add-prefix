@@ -1,6 +1,6 @@
 {
   "name": "postcss-add-prefix",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Postcss plugin to add a selector as a prefix to all classes",
   "main": "index.js",
   "keywords": [
