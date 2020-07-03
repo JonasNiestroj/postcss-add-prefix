@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/JonasNiestroj/postcss-prefix-selector/issues"
   },
-  "homepage": "https://github.com/JonasNiestroj/postcss-prefix-selector"
+  "homepage": "https://github.com/JonasNiestroj/postcss-prefix-selector",
+  "dependencies": {
+    "postcss": "^7.0.32"
+  }
 }
