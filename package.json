@@ -1,6 +1,6 @@
 {
   "name": "postcss-add-prefix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Postcss plugin to add a selector as a prefix to all classes",
   "main": "index.js",
   "keywords": [
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/JonasNiestroj/postcss-add-prefix",
   "dependencies": {
-    "eslint": "^7.3.1",
     "postcss": "^7.0.32"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1"
   }
 }
