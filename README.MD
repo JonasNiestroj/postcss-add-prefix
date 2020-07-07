@@ -31,3 +31,17 @@ With postcss-add-prefix
 ```js
 postcss([ require('postcss-add-prefix')( { selector: '.scope' } ) ])
 ```
+
+Exclude
+```js
+postcss([ require('postcss-add-prefix')( { selector: '.scope', exlude: ['modal*'] })])
+```
+
+No-prefix
+```css
+@no-prefix;
+.class {
+
+}
+@end-no-prefix;
+```
