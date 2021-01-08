@@ -32,7 +32,7 @@ const walkRules = (postcss, result, options) => {
     compileExcludes(options.exclude);
   }
 
-  postcss.each((rule) => {
+  postcss.walk((rule) => {
     if (rule.type === "atrule") {
       if (rule.name === "no-prefix") {
         noPrefix = true;
